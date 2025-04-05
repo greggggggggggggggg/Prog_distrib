@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class AppTest {
     @Test public void appHasAGreeting() {
-        App classUnderTest = new App();
-        assertNotNull("Bienvenue dans mon supermarché en ligne !", classUnderTest.getGreeting());
+        ProductController classUnderTest = new ProductController();
+        assertNotNull("supermarchéenligne fonctionne correctement", classUnderTest.getNom());
     }
 }
